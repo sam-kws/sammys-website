@@ -2,7 +2,7 @@ var persistmenu = "yes" //"yes" or "no". Make sure each SPAN content contains an
 var persisttype = "sitewide" //enter "sitewide" for menu to persist across site, "local" for this page onlyif (document.getElementById){ //DynamicDrive.com change
 document.write('<style type="text/css">n')
 document.write('.submenu{display: none;}n')
-document.write('</style>n')
+document.write('</style>')
 
 function SwitchMenu(obj) {
     if (document.getElementById) {
