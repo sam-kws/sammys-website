@@ -1,14 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nilpferde</title>
+
+	<style>
+
+		body {
+            background-color: #0080FF;
+            text-align: center;
+		}
+
+        header {
+            background-color: #0c0f40; 
+            color: white; 
+            height: 200px;
+        }
+		
+        *{
+            padding:0px;
+            margin:0px;
+        }
+
+        #wrapper{ 
+            top:30px;
+            position:absolute;
+            width:980px;
+            left:50%;
+            margin-left:-490px;
+            background:#F1F1F1;
+            min-height:100%;
+            height:300%;
+        }
+
+        #menu{
+            position:absolute;
+            left:10px;
+            right:21px;
+            top:78px;
+            height:28px;
+            width:100% - 36px;
+
+            background: #2d2d2d;
+            padding-top:2px;
+            padding-left: 36px;
+        }
+
+        menu ul li {
+            list-style: none;
+            color:#e70502;
+            font-size:10pt;
+            font-family: Arial;
+            line-height: 27px;
+            padding: 0 8px;
+            display:inline;
+            font-weight:bold;
+        }
+
+        #menu ul li:hover{
+            color:white;
+        }
+
+        .menutitle{
+            cursor:pointer;
+            margin-bottom: 5px;
+            background-color:#ECECFF;
+            color:#000000;
+            width:140px;
+            padding:2px;
+            text-align:center;
+            font-weight:bold;
+            /*/*/border:1px solid #000000;/* */
+
+        }
+        
+        .submenu{
+            margin-bottom: 0.5em;
+        }
+
+    </style>
+
+    <script src="src/script.js"></script>
+
 </head>
 
+
+
+
 <body>
-    <p>Hello World! :)</p>
+
+
+<header>
+    <span style="font-size: 20pt">Nilpferde genau Untersucht...</span>
+    <marquee>Nilpferde sind geil!</marquee>
+    <font size="5"> <h1 style="margin-top: 0">Sammy's Website</h1> </font><B> 
+    <br> <br> Für meinen Bruder <br> Alex
+</header>
+
+
+
+And this code goes wherever you want the dynamic menu to appear.
+<!-- Keep all menus within masterdiv-->
+<div id="masterdiv"><div onclick="SwitchMenu('sub1')">Topics</div>
+<span id="sub1">
+- <a href="https://www.makeuseof.com/service/browser">Browsers/Addons</a><br>
+- <a href="https://www.makeuseof.com/service/web_based">Web Apps</a><br>
+- <a href="https://www.makeuseof.com/service/how-to">How-To Tips</a><br>
+- <a href="https://www.makeuseof.com/service/applications">Cool Software</a><br>
+...and more!
+</span><div onclick="SwitchMenu('sub2')">Staff Writers</div>
+<span id="sub2">
+- <a href="https://www.makeuseof.com/tag/author/karl-l-gechlik/">Karl Gechlik</a><br>
+- <a href="https://www.makeuseof.com/tag/author/tinsie/">Tina</a><br>
+- <a href="https://www.makeuseof.com/tag/author/varunkashyap/">Varun Kashyap</a><br>
+...and more!
+</span><div onclick="SwitchMenu('sub3')">Miscellaneous</div>
+
+<span id="sub3">
+- <a href="https://www.makeuseof.com/about/">About</a><br>
+- <a href="https://www.makeuseof.com/contact">Contact</a><br>
+- <a href="https://www.makeuseof.com/archives-2">Archives</a><br>
+- <a href="https://www.makeuseof.com/disclaimer">Disclaimer</a><br>
+</span></div>
+
+
+<span title="Das Bild habe ich aus dem Internet geklaut :)">Ein Nilpferd.</span>
+
+<p> <img src="img/Nilpferd.jpg" alt="Nilpferd" align="middle" height="500"> </p>
+
+
+<br><br><br><br><br><br><br><br><br>
+<a href="sammyswebsite2.html">Sammy's Website2</a><!doctype HTML>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+<font size="5"> Das ist nur ein Test, ich muss irgend einen Text schreiben <br> Kannst du Schach? Meine elo liegt zwischen 1000 und 1050. <br> Und deine? Schreib es in die nicht vorhandenen Kommentare. </font><B> 
+
 </body>
+
 </html>
